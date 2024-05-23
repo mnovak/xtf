@@ -5,11 +5,11 @@
 	<parent>
 		<artifactId>xtf-parent</artifactId>
 		<groupId>cz.xtf</groupId>
-		<version>0.33-SNAPSHOT-pretag</version>
+		<version>0.32-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>builder</artifactId>
-	<name>XTF :: Builder</name>
+	<artifactId>test-helpers</artifactId>
+	<name>XTF :: Test Helpers</name>
 
 	<dependencies>
 		<dependency>
@@ -29,9 +29,13 @@
 		</dependency>
 
 		<dependency>
-			<groupId>io.fabric8</groupId>
-			<artifactId>openshift-server-mock</artifactId>
-			<scope>test</scope>
+			<groupId>org.jboss</groupId>
+			<artifactId>jboss-dmr</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
 		</dependency>
 	</dependencies>
 

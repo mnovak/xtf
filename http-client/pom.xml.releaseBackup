@@ -5,11 +5,11 @@
 	<parent>
 		<artifactId>xtf-parent</artifactId>
 		<groupId>cz.xtf</groupId>
-		<version>0.33-SNAPSHOT-pretag</version>
+		<version>0.32-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>builder</artifactId>
-	<name>XTF :: Builder</name>
+	<artifactId>http-client</artifactId>
+	<name>XTF :: Http Client</name>
 
 	<dependencies>
 		<dependency>
@@ -18,20 +18,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>io.fabric8</groupId>
-			<artifactId>openshift-client</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<scope>provided</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>io.fabric8</groupId>
-			<artifactId>openshift-server-mock</artifactId>
-			<scope>test</scope>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
 		</dependency>
 	</dependencies>
 
